@@ -1,10 +1,9 @@
 
 
-import './huro-list-item.css';
+import './hero-list-item.css';
 
 
-
-const HuroListItem = ({name, url, power, text}) => {
+const HeroListItem = ({name, url, power, text}) => {
     return (
         <div className="col">
             <div className="card">
@@ -19,4 +18,4 @@ const HuroListItem = ({name, url, power, text}) => {
     );
 };
 
-export default HuroListItem;
+export default HeroListItem;
